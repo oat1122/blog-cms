@@ -1,0 +1,26 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# env — สำคัญมาก ห้าม commit ค่าจริง
+.env
+.env*.local
+
+# drizzle
+/drizzle
+
+# logs / os / editor
+*.log
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
